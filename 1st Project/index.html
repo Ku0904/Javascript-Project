@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <!--with the help of defer first js file will be downloaded to browser and only be excuted after html -->
+    >
+    <title>JavaScript Background Color Switcher</title>
   </head>
-  <body></body>
+  <body>
+    <div class="canvas">
+      <h1>Color Scheme Switcher</h1>
+      <span class="button" id="grey"></span>
+      <span class="button" id="white"></span>
+      <span class="button" id="blue"></span>
+      <span class="button" id="yellow"></span>
+      <span class="button" id="purple"></span>
+      <h2>
+        Try clicking on one of the colors above to change the background color
+        of this page!
+      </h2>
+    </div>
+    <!--we can put js script here so that html executed first before js-->>
+  </body>
 </html>

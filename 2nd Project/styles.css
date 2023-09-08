@@ -1,0 +1,9 @@
+html {
+  margin: 0;
+  background-color: grey;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
